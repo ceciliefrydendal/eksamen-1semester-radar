@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "alumni", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #32746d;
+  
+}
+
+.banner-container {
+    background-color: #104f55;
+    display: flex;
+    width: auto;
+    align-items: center;
+    max-height: 7rem;
+}
+
+
+.logo-header {
+    width: 4px;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #104f55;
+    padding: 10px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+}
+
+header .logo-header {
+    width: 2px;
+}
+
+
+
