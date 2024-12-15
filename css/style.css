@@ -1,46 +1,109 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style-type: none;
+        text-decoration: none;
+        background-color: var(--backgrund-color);
+    }
+    
+    :root{
+        --primary-color: #9ec5ab;
+        --secondary-color: #ec4e20;
+        --backgrund-color: #32746d;
+        --color1: #104f55;
+        --color2: #ffa630;
+        }
+    
 
-body{
-    margin: 0;
-    font-family: "alumni", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    background-color: #32746d;
-  
-}
+         
+         a {
+           display: flex;
+           justify-content: center;
+        }
+         
+     .logo {
+      width: 70px;     
+      position: absolute;
+     bottom: 50px;
+     background-color: var(--color1);
+     z-index: 1;
+         } 
+         
+         
+         header{
+            position: absolute;
+            top: 0%;
+            left: 0;
+            right: 0;
+            background-color: var(--color1);
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            padding: 10px 7%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 8rem;
+            z-index: 1;
+            
+         }
+         
+         
+         header .navbar ul li{
+            position: relative;
+            float: left;
+         }
+         
+         header .navbar ul li a {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 18px;
+            color: var(--primary-color);;
+            display: block;
+            padding-top: 80px;
+            background-color: var(--color1);
+         }
+         
+         header .navbar ul li a:hover{
+            color: var(--color2);
+         }
+         
+         header .navbar ul li ul{
+            position: absolute;
+            left: 0;
+            width: 300px;
+            background: #3391c9;
+            display: none;
+         }
+         
+         header .navbar ul li ul li{
+            width: 100%;
+            border-top: 1px solid rgba(0,0,0,0.1);
+         }
+         
+         header .navbar ul li:focus-within > ul,
+         header .navbar ul li:hover > ul{
+            display: block;
+         }
+         
+         #menu-bar{
+            display: none;
+         }
+         
+         header label{
+            font-size: 20px;
+            color: #ffffff;
+            cursor: pointer;
+            display: none;
+         }
+         
+    /* responsive nav */
+   
 
-.banner-container {
-    background-color: #104f55;
-    display: flex;
-    width: auto;
-    align-items: center;
-    max-height: 7rem;
-}
+      /* footer */
 
+      footer{
+         background-color: #104f55;
 
-.logo-header {
-    width: 4px;
-}
-
-header {
-    position: relative;
-    top: 0;
-    left: 0;
-    background-color: #104f55;
-    padding: 10px 7%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 7rem;
-}
-
-header .logo-header {
-    width: 2px;
-}
-
-
-
+      }
+    
+   
