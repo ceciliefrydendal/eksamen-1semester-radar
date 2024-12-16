@@ -155,8 +155,39 @@
 
   /* footer */
 
-  footer{
-     background-color: #104f55;
+  .footer-baggrund{
+     position: absolute;
+     left: -5%;
+     top: 250%;
+  }
+
+  .logo-footer{
+    position: absolute;
+    width: 200px;
+    top: 252%;
+    left: 43%;
+  }
+
+  .facebook-logo{
+    position: absolute;
+    width: 120px;
+    top: 260%;
+    left: 73%;
+  }
+
+  .instagram-logo{
+    position: absolute;
+    width: 140px;
+    top: 260%;
+    left: 83%;
+  }
+
+  .footer-kontakt{
+    position: absolute;
+    top: 260%;
+    left: 2%;
+    font-size: 23px;
+    color: #f1bdff;
   }
 
 
