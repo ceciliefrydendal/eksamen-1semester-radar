@@ -150,6 +150,49 @@
         border-radius: 5%;
      }
 
+     .dulle-orange{
+        rotate: 20deg;
+        position: absolute;
+        width: 750px;
+        top: 150%;
+        left: 40%;
+     }
+
+     .dulle-gron{
+        rotate: 20deg;
+        position: absolute;
+        width: 750px;
+        top: 150%;
+        left: 5%;
+     }
+
+     .dulle-orange-sektion{
+        position: absolute;
+        font-size: 20px;
+        width: 750px;
+        top: 180%;
+        left: 55%;
+        z-index: 1;
+     }
+
+     .dulle-orange-overskrift{
+        color: #f1bdff;
+     }
+
+     .dulle-gron-overskrift{
+        color: #f1bdff;
+     }
+
+     .dulle-gron-sektion{
+        position: absolute;
+        font-size: 20px;
+        width: 750px;
+        top: 180%;
+        left: 15%;
+        z-index: 1;
+     }
+
+
 /* responsive nav */
 
 
@@ -157,7 +200,7 @@
 
   .footer-baggrund{
      position: absolute;
-     left: -5%;
+     left: -6.10%;
      top: 250%;
   }
 
