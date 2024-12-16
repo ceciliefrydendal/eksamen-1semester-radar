@@ -12,6 +12,7 @@
 
     <!-- LINKER TIL CSS STYLESHEETS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forside.css">
     <link rel="icon" href="img/logo.webp" sizes="32x32" type="img/webp">
     
 <!-- DETTE TILLADER OS AT BRUGE DEN ØNSKEDE FONT -->
@@ -22,38 +23,42 @@
 
 <header>
     <img class="logo" href="index.html" src="/img/logo.webp" alt="Logo">
-    <input type="checkbox" id="menu-bar">
+    <input type="checkbox" id="menu-bar"> <!--chekbox-->
     <label for="menu-bar">Menu</label>
 
+    <!--NAVBAR START-->
     <nav class="navbar">
         <ul>
             <li><a href="ikke-lavet.html">PRISER</a></li>
             <li><a href="rating.html">RATING</a>
             <li><a href="koncerter-genre.html">KONCERTER</a></li>
             <li class="om-os"><a href="#">OM OS</a>
-                <ul>
+                <ul> <!--dropdown start-->
                     <li><a href="ikke-lavet.html">HVAD LAVER VI</a></li>
                     <li><a href="ikke-lavet.html">SPONSER</a></li>
                     <li><a href="ikke-lavet.html">VORES HISTORIE</a></li>
-                </ul>
+                </ul> <!--dropdown slut-->
             </li>
         <li class="om-os"><a href="mit-radar.html">mit RADAR</a></li>
         </ul>
     </nav>
-
+    <!--NAVBAR SLUT-->
 </header>
 
 
 <body>
 
+    <!--INFOBOXE START-->
+    <section class="infobox">
     <article class="clothing-club">
         <img class="cc-img" src="img/clothing-club.webp" alt="billed af bandet Clothing Club" >
         <p class="cc-dato">12 DEC</p>
         <p class="cc-overskrift">Clothing Club [SUPPORT: KRAMMER]</p>
         <p class="cc-tekst">Glem alt om melankoli, modløshed og ensomhed.
             Clothing Club får dig til  iat bobbe med hovedet, smile og være til stede i nuet. Det er sprællevende hip-hop/jazz tilsat et stænk house, der smelter Aarhus-jazz’en sammen med dansegulvet på klubben i...</p>
+        <button class="cc-but">læs mere</button>
     </article>
-    <button class="cc-but">læs mere</button>
+    
     
 
     <article class="allen-anjeh">
@@ -62,8 +67,9 @@
         <p class="aa-overskrift">Allen Anjeh</p>
         <p class="aa-tekst">GMed sit take på r&b og neo-soul bringer Allen Anjeh en kærkommen originalitet ind på den danske musikscene.
             Hendes debut-ep Ó mmɛ ne, der udkom i september 2023, har været mange år undervejs, og består af en håndfuld sange, der...</p>
+        <button class="aa-but">læs mere</button>
     </article>
-    <button class="aa-but">læs mere</button>
+   
 
 
     <article class="sonth">
@@ -71,9 +77,10 @@
         <p class="so-dato">14 DEC</p>
         <p class="so-overskrift">SØNTH PRESENTS: Astrid Helena +</p>
         <p class="so-tekst">SØNTH inviterer til en aften med fire artister, der alle har tilknytning til den aarhusianske elektroniske musikscene. Forvent æteriske lydlandskaber, aggressive beats, granular-synthesizers og rum for refleksion, når Astrid Helena, ****&c.' 'beep etc,...</p>
+        <button class="so-but">læs mere</button>
     </article>
-    <button class="so-but">læs mere</button>
-
+    </section>
+    <!--INFOBOXE SLUT-->
 
     <section class="gavekort">
         <img class="dulle-orange" src="img/dulle-orange.webp" alt="orange plamage">
