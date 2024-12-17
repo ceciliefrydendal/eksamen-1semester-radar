@@ -47,7 +47,7 @@
         
      }
      
-     
+     /* responsive nav */
      header .navbar ul li{
         position: relative;
         float: left;
@@ -67,13 +67,6 @@
         color: var(--color2);
      }
      
-     header .navbar ul li ul{
-        position: absolute;
-        left: 0;
-        width: 300px;
-        background: #3391c9;
-        display: none;
-     }
      
      header .navbar ul li ul li{
         width: 100%;
@@ -96,10 +89,12 @@
         display: none;
      }
 
+/* responsive nav slut */
+
      body{
         background-color: var(--backgrund-color);
      }
-
+/* indhold desing */
      .cc-img{
         position: absolute;
         width: 320px;
@@ -151,6 +146,8 @@
         border-radius: 5%;
      }
 
+
+       /* duller */
      .dulle-orange{
         rotate: 20deg;
         position: absolute;
@@ -193,8 +190,6 @@
         z-index: 1;
      }
 
-
-/* responsive nav */
 
 
   /* footer */
