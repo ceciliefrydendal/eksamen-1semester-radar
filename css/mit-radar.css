@@ -25,7 +25,6 @@
     width: 750px;
     top: 27%;
     left: 15%;
-    z-index: 1;
 }
 
 .stor-gul{
@@ -65,7 +64,6 @@
     width: 300px;
     top: 61%;
     left: 22%;
-    z-index: 1;
 }
 
 .skral{
@@ -81,7 +79,6 @@
     width: 300px;
     top: 86%;
     left: 25%;
-    z-index: 1;
 }
 
 .ynglings-but{
@@ -278,3 +275,232 @@
     transform: translateY(30px) scale(0.9);
 }
 }
+
+
+ /*  mobile */ 
+ @media(max-width: 600px){
+.canva{
+    padding-top: 200rem;
+}
+
+/* ynglings kunstnere */
+.ynglings-overskrift{
+    position: absolute;
+    font-size: 30px;
+    width: 750px;
+    top: 27%;
+    left: 20%;
+}
+
+.stor-gul{
+    position: absolute;
+    width: 420px;
+    height: 745px;
+    top: 20%;
+    left: 5%;
+}
+
+.i-think{
+    position: absolute;
+    width: 300px;
+    top:29%;
+    left: 22.5%;
+
+}
+
+.i-think-tekst{
+    position: absolute;
+    font-size: 20px;
+    width: 300px;
+    top: 54%;
+    left: 22%;
+}
+
+.joe{
+    position: absolute;
+    width: 210px;
+    top:56%;
+    left: 26%;
+}
+
+.joe-tekst{
+    position: absolute;
+    font-size: 20px;
+    width: 300px;
+    top: 78%;
+    left: 22%;
+}
+
+.skral{
+    position: absolute;
+    width: 210px;
+    top:83%;
+    left: 26%;
+}
+
+.skral-tekst{
+    position: absolute;
+    font-size: 20px;
+    width: 300px;
+    top: 104%;
+    left: 22%;
+}
+
+.ynglings-but{
+    position: absolute;
+    width: 90px;
+    top: 106.5%;
+    left: 40%;
+    background-color: var(--secondary-color);
+    border: 30px solid var(--secondary-color);
+    border-radius: 90%;
+}
+
+/* dine oplysninger */
+.op-img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 115%;
+    left: 5%;
+}
+
+.op-overskrift{
+    position: absolute;
+    font-size: 30px;
+    width: 750px;
+    top: 27%;
+    left: 70%;
+    z-index: 1;
+}
+
+ 
+.navn{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 35%;
+    left: 85%;
+    z-index: 1;
+}
+
+.title{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 41%;
+    left: 85%;
+    z-index: 1;
+}
+
+.by{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 47%;
+    left: 85%;
+    z-index: 1;
+}
+.navn-k{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 35%;
+    left: 63%;
+    z-index: 1;
+}
+
+.titel-s{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 41%;
+    left: 63%;
+    z-index: 1;
+}
+
+.by-a{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 47%;
+    left: 63%;
+    z-index: 1;
+}
+
+.ændre-but{
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 71%;
+    background-color: var(--secondary-color);
+    border: 30px solid var(--secondary-color);
+    border-radius: 5%;
+}
+
+ /* din næste koncert */
+ .din-img{
+     position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 160%;
+    left: 5%;
+ }
+
+.din-overskift{
+    position: absolute;
+    font-size: 30px;
+    width: 750px;
+    top: 75%;
+    left: 70%;
+    z-index: 1;
+}
+
+.afsky{
+    position: absolute;
+    font-size: 20px;
+    width: 750px;
+    top: 85%;
+    left: 75%;
+    z-index: 1;
+}
+
+.dato{
+    position: absolute;
+    font-size: 20px;
+    width: 750px;
+    top: 90%;
+    left: 75%;
+    z-index: 1;
+}
+
+.afsky-img{
+    position: absolute;
+    width: 200px;
+    top:80%;
+    left: 59%;
+    z-index: 1;
+}
+
+.din-but{
+    position: absolute;
+    width: 150px;
+    top: 97%;
+    left: 71%;
+    background-color: var(--secondary-color);
+    border: 30px solid var(--secondary-color);
+    border-radius: 5%;
+}
+
+
+    
+
+
+
+ }
+
+ /* tablet */ 
+@media (min-width: 601px) and (max-width: 991px){
+
+}
+
