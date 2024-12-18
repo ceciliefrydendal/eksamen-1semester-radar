@@ -14,6 +14,10 @@
     --color2: #ffa630;
     }
 
+    body{
+      background-color: var(--backgrund-color);
+   }
+
 
      
      a {
@@ -98,9 +102,6 @@
 
 /* responsive nav slut */
 
-     body{
-        background-color: var(--backgrund-color);
-     }
 /* indhold desing */
      .cc-img{
         position: absolute;
@@ -154,7 +155,7 @@
      }
 
 
-       /* footer */
+       /* duller */
      .dulle-orange{
         rotate: 20deg;
         position: absolute;
@@ -250,7 +251,7 @@
 .footer-baggrund{
    position: absolute;
         left: -6.10%;
-        top: 250%;
+        top: 270%;
         width: 430px;
         height: 30%;
 }
@@ -258,27 +259,27 @@
 .logo-footer{
    position: absolute;
    width: 100px;
-   top: 262%;
+   top: 282%;
    left: 43%;
 }
 
 .facebook-logo{
    position: absolute;
         width: 100px;
-        top: 252%;
+        top: 272%;
         left: 71%;
  }
 
  .instagram-logo{
    position: absolute;
    width: 130px;
-   top: 265%;
+   top: 285%;
    left: 66%;
  }
 
  .footer-kontakt{
    position: absolute;
-   top: 255%;
+   top: 275%;
    left: 2%;
    font-size: 13px;
    color: #f1bdff;
@@ -315,23 +316,110 @@ position: relative;
 width: 100%;
 }
 
-header .navbar ul li ul li{
-background: #3391c9;
-}
-
-header .navbar ul li ul li ul{
-width: 100%;
-left: 0;
-}
 
 #menu-bar:checked ~ .navbar{
 display: block;
 }
-.footerarticle {
-display: flex;
-flex-direction: column;
-width: 100%;
+
+
+  /* indhold */
+  .cc-img{
+   position: absolute;
+   width: 200px;
+   top: 25%;
+   left: 25%;
 }
+
+.aa-img{
+   position: absolute;
+   width: 200px;
+   top: 83%;
+   left: 25%;
+}
+
+.so-img{
+   position: absolute;
+   width: 200px;
+   top: 142%;
+   left: 25%;
+}
+
+.cc-but{
+   position: absolute;
+   width: 80px;
+   top: 67%;
+   left: 40%;
+   background-color: var(--secondary-color);
+   border: 30px solid var(--secondary-color);
+   border-radius: 90%;
+}
+
+.aa-but{
+   position: absolute;
+   width: 80px;
+   top: 125%;
+   left: 40%;
+   background-color: var(--secondary-color);
+   border: 30px solid var(--secondary-color);
+   border-radius: 90%;
+   z-index: 1;
+}
+
+.so-but{
+   position: absolute;
+   width: 80px;
+   top: 185%;
+   left: 40%;
+   background-color: var(--secondary-color);
+   border: 30px solid var(--secondary-color);
+   border-radius: 90%;
+   z-index: 1;
+}
+
+
+       /* duller */
+       .dulle-orange{
+         rotate: 340deg;
+         position: absolute;
+         width: 375px;
+         top: 225%;
+         left: 2%;
+         z-index: 1;
+      }
+ 
+      .dulle-gron{
+         rotate: 10deg;
+         position: absolute;
+         width: 380px;
+         top: 198%;
+         left: 2%;
+      }
+ 
+      .dulle-orange-sektion{
+         position: absolute;
+         font-size: 15px;
+         width: 750px;
+         top: 240%;
+         left: 20%;
+         z-index: 1;
+      }
+ 
+      .dulle-orange-overskrift{
+         color: #f1bdff;
+      }
+ 
+      .dulle-gron-overskrift{
+         color: #f1bdff;
+      }
+ 
+      .dulle-gron-sektion{
+         position: absolute;
+         font-size: 12px;
+         width: 750px;
+         top: 215%;
+         left: 20%;
+         z-index: 1;
+      }
 
 }
 
@@ -423,4 +511,7 @@ header .navbar ul li ul li ul{
 #menu-bar:checked ~ .navbar{
   display: block;
 }
+
+  /* indhold */
+
 }
