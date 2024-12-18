@@ -223,16 +223,39 @@
 
 .indie-p {
     position: absolute;
-    top: 105%;
     color: var(--secondary-color);
     z-index: 1;
     font-size: 20px;
-    top: 140%;
-    animation-delay: 50s;
+    top: 141.5%;
+    animation-delay: 30s;
     left: 30%;
     animation: fade-up 3s;
 }
 
+
+.metal-p {
+    position: absolute;
+    color: var(--secondary-color);
+    z-index: 1;
+    font-size: 35px;
+    top: 155%;
+    animation-delay: 30s;
+    left: 29%;
+    animation: fade-up 3s;
+}
+
+.jazz-p {
+    position: absolute;
+    color: var(--secondary-color);
+    z-index: 1;
+    font-size: 45px;
+    top: 135%;
+    animation-delay: 30s;
+    left: 37%;
+    animation: fade-up 3s;
+}
+
+ /* får det til ar bevæge sig */
 @keyframes fade-up{
 0% {
     opacity: 0;
