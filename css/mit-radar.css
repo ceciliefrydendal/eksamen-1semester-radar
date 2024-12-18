@@ -178,6 +178,31 @@
 }
 
  /* din næste koncert */
+ .din-img{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 64.5%;
+    left: 55%;
+ }
+
+.din-overskif{
+    position: absolute;
+    font-size: 30px;
+    width: 750px;
+    top: 60%;
+    left: 70%;
+    z-index: 1;
+}
+
+.afsky{
+
+}
+
+.dato{
+
+}
+
 .afsky-img{
     position: absolute;
     width: 200px;
@@ -185,4 +210,32 @@
     left: 59%;
     z-index: 1;
 }
- 
+
+.din-but{
+
+}
+
+ /* din statestik */
+.canva{
+    position: absolute;
+    left: 23%;
+}
+
+.indie-p {
+    position: absolute;
+    top: 105%;
+    color: var(--secondary-color);
+    z-index: 1;
+    font-size: 20px;
+    top: 140%;
+    animation-delay: 50s;
+    left: 30%;
+    animation: fade-up 3s;
+}
+
+@keyframes fade-up{
+0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+}
+}
