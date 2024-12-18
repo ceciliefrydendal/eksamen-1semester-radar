@@ -241,19 +241,59 @@
   /*  mobile */ 
 @media(max-width: 600px) {
 
-
+  /* footer */
 .footer-container {
   flex-direction: column;
   gap: 10px;
 }
 
+.footer-baggrund{
+   position: absolute;
+        left: -6.10%;
+        top: 250%;
+        width: 430px;
+        height: 30%;
+}
 
+.logo-footer{
+   position: absolute;
+   width: 100px;
+   top: 262%;
+   left: 43%;
+}
+
+.facebook-logo{
+   position: absolute;
+        width: 100px;
+        top: 252%;
+        left: 71%;
+ }
+
+ .instagram-logo{
+   position: absolute;
+   width: 130px;
+   top: 265%;
+   left: 66%;
+ }
+
+ .footer-kontakt{
+   position: absolute;
+   top: 255%;
+   left: 2%;
+   font-size: 13px;
+   color: #f1bdff;
+ }
+
+  /* navbar */
 header{
 padding: 20px;
 }
 
 header label{
 display: block;
+position: absolute;
+  top: 70%;
+  left: 49%;
 }
 
 header .navbar{
@@ -297,13 +337,59 @@ width: 100%;
 
 /* tablet */ 
 @media (min-width: 601px) and (max-width: 991px) {
+     /* footer */
+   .footer-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .footer-baggrund{
+      position: absolute;
+      left: -6.10%;
+      top: 250%;
+      width: 742px;
+      height: 30%;
+    }
+    
+    .logo-footer{
+      position: absolute;
+      width: 100px;
+      top: 257%;
+      left: 43%;
+    }
+    
+    .facebook-logo{
+       position: absolute;
+            width: 100px;
+            top: 252%;
+            left: 71%;
+     }
+    
+     .instagram-logo{
+      position: absolute;
+      width: 130px;
+      top: 265%;
+      left: 68%;
+     }
+    
+     .footer-kontakt{
+       position: absolute;
+       top: 252%;
+       left: 2%;
+       font-size: 17px;
+       color: #f1bdff;
+     }
 
+  /* header */
 header{
   padding: 20px;
 }
 
 header label{
   display: block;
+  position: absolute;
+  top: 64%;
+  left: 49%;
 }
 
 header .navbar{
@@ -336,10 +422,5 @@ header .navbar ul li ul li ul{
 
 #menu-bar:checked ~ .navbar{
   display: block;
-}
-
-.sponsorfooter {
-  display: flex;
-  width: 25%;
 }
 }
