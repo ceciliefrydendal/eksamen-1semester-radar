@@ -18,10 +18,20 @@
       background-color: var(--backgrund-color);
    }
 
+    /* ynglings kunstnere */
+.ynglings-overskrift{
+    position: absolute;
+    font-size: 30px;
+    width: 750px;
+    top: 27%;
+    left: 15%;
+    z-index: 1;
+}
+
 .stor-gul{
     position: absolute;
     width: 600px;
-    height: 730px;
+    height: 745px;
     top: 20%;
     left: 5%;
 }
@@ -30,30 +40,149 @@
     position: absolute;
     width: 300px;
     top:32%;
-    left: 10%;
+    left: 7%;
 
 }
 
 .i-think-tekst{
-
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 43%;
+    left: 22%;
 }
 
 .joe{
     position: absolute;
     width: 200px;
     top:55%;
-    left: 11.5%;
+    left: 8.5%;
 }
 
 .joe-tekst{
-
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 61%;
+    left: 22%;
+    z-index: 1;
 }
 
 .skral{
     position: absolute;
     width: 200px;
     top:78%;
-    left: 11.5%;
+    left: 8.5%;
 }
 
-.skral-tekst{}
+.skral-tekst{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 86%;
+    left: 25%;
+    z-index: 1;
+}
+
+.ynglings-but{
+    position: absolute;
+    width: 200px;
+    top: 97%;
+    left: 18%;
+    background-color: var(--secondary-color);
+    border: 30px solid var(--secondary-color);
+    border-radius: 5%;
+}
+
+
+ /* dine oplysninger */
+.op-img{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 17%;
+    left: 55%;
+}
+
+.op-overskrift{
+    position: absolute;
+    font-size: 30px;
+    width: 750px;
+    top: 27%;
+    left: 70%;
+    z-index: 1;
+}
+
+ 
+.navn{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 35%;
+    left: 85%;
+    z-index: 1;
+}
+
+.title{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 41%;
+    left: 85%;
+    z-index: 1;
+}
+
+.by{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 47%;
+    left: 85%;
+    z-index: 1;
+}
+.navn-k{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 35%;
+    left: 63%;
+    z-index: 1;
+}
+
+.titel-s{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 41%;
+    left: 63%;
+    z-index: 1;
+}
+
+.by-a{
+    position: absolute;
+    font-size: 25px;
+    width: 300px;
+    top: 47%;
+    left: 63%;
+    z-index: 1;
+}
+
+.ændre-but{
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 71%;
+    background-color: var(--secondary-color);
+    border: 30px solid var(--secondary-color);
+    border-radius: 5%;
+}
+
+ /* din næste koncert */
+.afsky-img{
+    position: absolute;
+    width: 200px;
+    top: 100%;
+    left: 59%;
+    z-index: 1;
+}
+ 
