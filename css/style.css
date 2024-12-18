@@ -346,7 +346,7 @@ display: block;
 
 .cc-but{
    position: absolute;
-   width: 80px;
+   width: 90px;
    top: 67%;
    left: 40%;
    background-color: var(--secondary-color);
@@ -356,7 +356,7 @@ display: block;
 
 .aa-but{
    position: absolute;
-   width: 80px;
+   width: 90px;
    top: 125%;
    left: 40%;
    background-color: var(--secondary-color);
@@ -367,7 +367,7 @@ display: block;
 
 .so-but{
    position: absolute;
-   width: 80px;
+   width: 90px;
    top: 185%;
    left: 40%;
    background-color: var(--secondary-color);
@@ -434,7 +434,7 @@ display: block;
     .footer-baggrund{
       position: absolute;
       left: -6.10%;
-      top: 250%;
+      top: 270%;
       width: 742px;
       height: 30%;
     }
@@ -442,27 +442,27 @@ display: block;
     .logo-footer{
       position: absolute;
       width: 100px;
-      top: 257%;
+      top: 277%;
       left: 43%;
     }
     
     .facebook-logo{
        position: absolute;
             width: 100px;
-            top: 252%;
+            top: 272%;
             left: 71%;
      }
     
      .instagram-logo{
       position: absolute;
       width: 130px;
-      top: 265%;
+      top: 285%;
       left: 68%;
      }
     
      .footer-kontakt{
        position: absolute;
-       top: 252%;
+       top: 272%;
        left: 2%;
        font-size: 17px;
        color: #f1bdff;
@@ -512,6 +512,103 @@ header .navbar ul li ul li ul{
   display: block;
 }
 
+
   /* indhold */
+  .cc-img{
+   position: absolute;
+   width: 250px;
+   top: 25%;
+   left: 10%;
+}
+
+.aa-img{
+   position: absolute;
+   width: 250px;
+   top: 25%;
+   left: 54%;
+}
+
+.so-img{
+   position: absolute;
+   width: 250px;
+   top: 95%;
+   left: 31%;
+}
+
+.cc-but{
+   position: absolute;
+   width: 90px;
+   top: 77%;
+   left: 20%;
+   background-color: var(--secondary-color);
+   border: 30px solid var(--secondary-color);
+   border-radius: 90%;
+}
+
+.aa-but{
+   position: absolute;
+   width: 90px;
+   top: 77%;
+   left: 65%;
+   background-color: var(--secondary-color);
+   border: 30px solid var(--secondary-color);
+   border-radius: 90%;
+}
+
+.so-but{
+   position: absolute;
+   width: 90px;
+   top: 147%;
+   left: 42%;
+   background-color: var(--secondary-color);
+   border: 30px solid var(--secondary-color);
+   border-radius: 90%;
+   z-index: 1;
+}
+
+
+       /* duller */
+       .dulle-orange{
+         rotate: 340deg;
+         position: absolute;
+         width: 650px;
+         top: 200%;
+         left: 2%;
+      }
+ 
+      .dulle-gron{
+         rotate: 10deg;
+         position: absolute;
+         width: 650px;
+         top: 153%;
+         left: 7%;
+         z-index: -1;
+      }
+ 
+      .dulle-orange-sektion{
+         position: absolute;
+         font-size: 25px;
+         width: 750px;
+         top: 225%;
+         left: 20%;
+         z-index: 1;
+      }
+ 
+      .dulle-orange-overskrift{
+         color: #f1bdff;
+      }
+ 
+      .dulle-gron-overskrift{
+         color: #f1bdff;
+      }
+ 
+      .dulle-gron-sektion{
+         position: absolute;
+         font-size: 20px;
+         width: 750px;
+         top: 180%;
+         left: 23%;
+         z-index: 1;
+      }
 
 }
