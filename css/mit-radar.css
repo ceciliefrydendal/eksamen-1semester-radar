@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root{
+    --primary-color: #9ec5ab;
+    --secondary-color: #ec4e20;
+    --backgrund-color: #32746d;
+    --color1: #104f55;
+    --color2: #ffa630;
+    }
+
+    body{
+      background-color: var(--backgrund-color);
+   }
+
+.stor-gul{
+    position: absolute;
+    width: 600px;
+    height: 730px;
+    top: 20%;
+    left: 5%;
+}
+
+.i-think{
+    position: absolute;
+    width: 300px;
+    top:32%;
+    left: 10%;
+
+}
+
+.i-think-tekst{
+
+}
+
+.joe{
+    position: absolute;
+    width: 200px;
+    top:55%;
+    left: 11.5%;
+}
+
+.joe-tekst{
+
+}
+
+.skral{
+    position: absolute;
+    width: 200px;
+    top:78%;
+    left: 11.5%;
+}
+
+.skral-tekst{}
