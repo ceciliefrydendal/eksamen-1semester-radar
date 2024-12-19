@@ -326,5 +326,156 @@ z-index: 1;
   }
 
  @media (min-width: 601px) and (max-width: 991px){
+  
+  .cc-koncerter{
+    position: absolute;
+    width: 300px;
+    top: 20%;
+    left: 5%;
+  }
+  
+  .aa-koncerter{
+    position: absolute;
+    width: 355px;
+    top: 20%;
+    left: 47%;
+  }
+  
+  .ar-koncerter{
+    position: absolute;
+    width: 300px;
+    top: 55%;
+    left: 5%;
+  }
+  
+  .bar-koncerter{
+    position: absolute;
+    width: 310px;
+    top: 55%;
+    left: 51.5%;
+  }
+  
+  .bush-koncerter{
+    position: absolute;
+    width: 310px;
+    top: 92%;
+    left: 4%;
+  }
+  
+  .oto-koncerter{
+    position: absolute;
+    width: 310px;
+    top: 92%;
+    left: 52%;
+  }
+  
+  .karm-koncerter{
+    position: absolute;
+    width: 340px;
+    top: 131%;
+    left: 22%;
+  }
+  
+ /* duller */
+ .koncerter-img-dulle{
+  rotate: 340deg;
+  position: absolute;
+  width: 375px;
+  top: 170%;
+  left: 2%;
+  z-index: -1;
+}
+
+.rating-img-dulle{
+  rotate: 10deg;
+  position: absolute;
+  width: 380px;
+  top: 170%;
+  left: 45%;
+}
+
+.koncerter-overskift{
+  position: absolute;
+  font-size: 15px;
+  width: 750px;
+  top: 185%;
+  left: 13%;
+  z-index: 1;
+}
+
+.rating{
+  position: absolute;
+  font-size: 15px;
+  width: 750px;
+  top: 185%;
+  left: 53%;
+  z-index: 1;
+}
+
+.her-but{
+  position: absolute;
+  width: 90px;
+  top: 190%;
+  left: 70%;
+  background-color: var(--secondary-color);
+  border: 30px solid var(--secondary-color);
+  border-radius: 90%;
+  z-index: 1;
+ }
+
+ .se-but{
+  position: absolute;
+  width: 90px;
+  top: 190%;
+  left: 15%;
+  background-color: var(--primary-color);
+  border: 30px solid var(--primary-color);
+  border-radius: 90%;
+  z-index: 1;
+ }
+
+  /* footer */
+  .footer-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .footer-baggrund{
+    position: absolute;
+    left: -6.10%;
+    top: 220%;
+    width: 742px;
+    height: 30%;
+  }
+  
+  .logo-footer{
+    position: absolute;
+    width: 100px;
+    top: 227%;
+    left: 43%;
+  }
+  
+  .facebook-logo{
+     position: absolute;
+          width: 100px;
+          top: 222%;
+          left: 71%;
+   }
+  
+   .instagram-logo{
+    position: absolute;
+    width: 130px;
+    top: 235%;
+    left: 68%;
+   }
+  
+   .footer-kontakt{
+     position: absolute;
+     top: 222%;
+     left: 2%;
+     font-size: 17px;
+     color: #f1bdff;
+   }
+ 
 
  }
