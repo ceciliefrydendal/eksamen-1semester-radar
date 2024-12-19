@@ -76,7 +76,7 @@ z-index: 1;
         rotate: 20deg;
         position: absolute;
         width: 750px;
-        top: 150%;
+        top: 280%;
         left: 40%;
 }
 
@@ -84,7 +84,7 @@ z-index: 1;
         rotate: 20deg;
         position: absolute;
         width: 750px;
-        top: 150%;
+        top: 280%;
         left: 5%;
 }
 
@@ -92,24 +92,239 @@ z-index: 1;
     position: absolute;
     font-size: 20px;
     width: 750px;
-    top: 180%;
+    top: 310%;
     left: 55%;
     z-index: 1;
  }
 
- .dulle-orange-overskrift{
-    color: #f1bdff;
- }
 
- .dulle-gron-overskrift{
-    color: #f1bdff;
- }
-
- .dulle-gron-sektion{
+ .rating{
     position: absolute;
     font-size: 20px;
     width: 750px;
-    top: 180%;
+    top: 310%;
     left: 15%;
     z-index: 1;
+ }
+
+ .her-but{
+  position: absolute;
+  width: 150px;
+  top: 320%;
+  left: 20%;
+  background-color: var(--secondary-color);
+  border: 30px solid var(--secondary-color);
+  border-radius: 5%;
+  z-index: 1;
+ }
+
+ .se-but{
+  position: absolute;
+  width: 150px;
+  top: 320%;
+  left: 60%;
+  background-color: var(--primary-color);
+  border: 30px solid var(--primary-color);
+  border-radius: 5%;
+  z-index: 1;
+ }
+
+ /*  footer */ 
+ .footer-baggrund{
+  position: absolute;
+  left: -6.10%;
+  top: 350%;
+}
+
+.logo-footer{
+ position: absolute;
+ width: 200px;
+ top: 352%;
+ left: 43%;
+}
+
+.facebook-logo{
+ position: absolute;
+ width: 120px;
+ top: 360%;
+ left: 73%;
+}
+
+.instagram-logo{
+ position: absolute;
+ width: 140px;
+ top: 360%;
+ left: 83%;
+}
+
+.footer-kontakt{
+ position: absolute;
+ top: 360%;
+ left: 2%;
+ font-size: 23px;
+ color: #f1bdff;
+}
+
+
+  /*  mobile */ 
+  @media(max-width: 600px) {
+  
+    /* billider */
+.cc-koncerter{
+  position: absolute;
+  width: 300px;
+  top: 20%;
+  left: 10%;
+}
+
+.aa-koncerter{
+  position: absolute;
+  width: 355px;
+  top: 55%;
+  left: 1%;
+}
+
+.ar-koncerter{
+  position: absolute;
+  width: 300px;
+  top: 92%;
+  left: 10%;
+}
+
+.bar-koncerter{
+  position: absolute;
+  width: 310px;
+  top: 127%;
+  left: 10%;
+}
+
+.bush-koncerter{
+  position: absolute;
+  width: 310px;
+  top: 163%;
+  left: 8%;
+}
+
+.oto-koncerter{
+  position: absolute;
+  width: 310px;
+  top: 198%;
+  left: 10%;
+}
+
+.karm-koncerter{
+  position: absolute;
+  width: 340px;
+  top: 236%;
+  left: 4%;
+}
+
+
+
+ /* duller */
+ .koncerter-img-dulle{
+  rotate: 340deg;
+  position: absolute;
+  width: 375px;
+  top: 275%;
+  left: 2%;
+  z-index: -1;
+}
+
+.rating-img-dulle{
+  rotate: 10deg;
+  position: absolute;
+  width: 380px;
+  top: 310%;
+  left: 2%;
+}
+
+.koncerter-overskift{
+  position: absolute;
+  font-size: 15px;
+  width: 750px;
+  top: 290%;
+  left: 20%;
+  z-index: 1;
+}
+
+.rating{
+  position: absolute;
+  font-size: 12px;
+  width: 750px;
+  top: 325%;
+  left: 20%;
+  z-index: 1;
+}
+
+.her-but{
+  position: absolute;
+  width: 90px;
+  top: 330%;
+  left: 30%;
+  background-color: var(--secondary-color);
+  border: 30px solid var(--secondary-color);
+  border-radius: 90%;
+  z-index: 1;
+ }
+
+ .se-but{
+  position: absolute;
+  width: 90px;
+  top: 295%;
+  left: 30%;
+  background-color: var(--primary-color);
+  border: 30px solid var(--primary-color);
+  border-radius: 90%;
+  z-index: 1;
+ }
+
+ /* footer */
+ .footer-container {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-baggrund{
+   position: absolute;
+        left: -6.10%;
+        top: 350%;
+        width: 430px;
+        height: 30%;
+}
+
+.logo-footer{
+   position: absolute;
+   width: 100px;
+   top: 362%;
+   left: 43%;
+}
+
+.facebook-logo{
+   position: absolute;
+        width: 100px;
+        top: 352%;
+        left: 71%;
+ }
+
+ .instagram-logo{
+   position: absolute;
+   width: 130px;
+   top: 365%;
+   left: 66%;
+ }
+
+ .footer-kontakt{
+   position: absolute;
+   top: 355%;
+   left: 2%;
+   font-size: 13px;
+   color: #f1bdff;
+ }
+  
+    
+  }
+
+ @media (min-width: 601px) and (max-width: 991px){
+
  }
