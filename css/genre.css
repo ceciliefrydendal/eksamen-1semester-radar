@@ -141,4 +141,146 @@
 }
 
 
+ /*  mobile */ 
+ @media(max-width: 600px){
+    
+ }
 
+ /* tablet */ 
+ @media (min-width: 601px) and (max-width: 991px){
+
+
+
+.pop{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        width: 180px;
+    }
+    
+    .metal{
+        position: absolute;
+        top: 30%;
+        left: 37.5%;
+        width: 180px;
+    }
+    
+    .jazz{
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        width: 180px;
+    }
+    .afrobeat{
+        position: absolute;
+        top: 65%;
+        left: 5%;
+        width: 180px;
+    }
+    
+    .elektron{
+        position: absolute;
+        top: 65%;
+        left: 37.5%;
+        width: 180px;
+    }
+    
+    .indie{
+        position: absolute;
+        top: 65%;
+        left: 70%;
+        width: 180px;
+    }
+    
+    .contry{
+        position: absolute;
+        top: 100%;
+        left: 5%;
+        width: 180px;
+    }
+    
+    .drag{
+        position: absolute;
+        top: 100%;
+        left: 37.5%;
+        width: 180px;
+    }
+    
+    .hiphop{
+        position: absolute;
+        top: 100%;
+        left: 70%;
+        width: 180px;
+    }
+    
+    .soul{
+        position: absolute;
+        top: 135%;
+        left: 23%;
+        width: 180px;
+    }
+    
+    .hause{
+        position: absolute;
+        top: 135%;
+        left: 52%;
+        width: 180px;
+    }
+
+     /* dulle */ 
+    .dulle-kommende{
+        rotate: 20deg;
+        position: absolute;
+        width: 750px;
+        top: 150%;
+        left: 40%;
+    }
+    
+    .dulle-t{
+        rotate: 20deg;
+        position: absolute;
+        width: 750px;
+        top: 150%;
+        left: 5%;
+    }
+    
+    .t-koncerter{
+        position: absolute;
+        font-size: 25px;
+        width: 750px;
+        top: 180%;
+        left: 50%;
+        z-index: 1;
+    }
+    
+    .t-but{
+        position: absolute;
+        width: 200px;
+        top: 190%;
+        left: 55%;
+        background-color: var(--secondary-color);
+        border: 30px solid var(--secondary-color);
+        border-radius: 5%;
+        z-index: 1;
+    }
+    
+    .k-koncerter{
+        position: absolute;
+        font-size: 25px;
+        width: 750px;
+        top: 180%;
+        left: 15%;
+        z-index: 1;
+    }
+    
+    .k-but{
+        position: absolute;
+        width: 200px;
+        top: 190%;
+        left: 20%;
+        background-color: var(--primary-color);
+        border: 30px solid var(--primary-color);
+        border-radius: 5%;
+        z-index: 1; 
+    }
+ }
