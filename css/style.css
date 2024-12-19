@@ -485,7 +485,7 @@ header .navbar{
   top: 100%;
   left: 0;
   right: 0;
-  background: #3391c9;
+  background: #32746d;
   border-top: 1px rgba(0,0,0,0.1);
   display: none;
 }
@@ -500,7 +500,7 @@ header .navbar ul li ul{
 }
 
 header .navbar ul li ul li{
-  background: #3391c9;
+  background: var(--primary-color);
 }
 
 header .navbar ul li ul li ul{
